@@ -1,0 +1,13 @@
+﻿[*.vb]
+
+# IDE0058: Expression value is never used
+visual_basic_style_unused_value_expression_statement_preference = discard_variable:silent
+
+# BC42104: Variable is used before it has been assigned a value
+dotnet_diagnostic.BC42104.severity = none
+
+# IDE0081: 'ByVal' keyword is unnecessary and can be removed.
+dotnet_diagnostic.IDE0081.severity = none
+
+# Default severity for analyzer diagnostics with category 'Style'
+dotnet_analyzer_diagnostic.category-Style.severity = none

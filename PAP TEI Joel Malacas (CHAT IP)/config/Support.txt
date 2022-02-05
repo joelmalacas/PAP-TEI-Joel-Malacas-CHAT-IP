@@ -1,0 +1,11 @@
+----------------------------------COMO FUNCIONA O CHAT IP? -----------------------------------------------------
+1- Introduza o IP do seu parceiro, e de seguida clique no botão ligar;
+2- Aceitar a ligação e está conectado ao dispositivo do seu parceiro;
+3- Ao estar já conectado já pode comunicar com o seu parceiro;
+
+-----------------------COMO ABRIR PORTA PARA WAN (PARA FORA DA REDE LOCAL, "LAN")---------------------------------
+1- Depende do seu ISP (Meo |192.168.1.254, Vodafone |192.168.1.1, NOS |192.168.1.1);
+2- Introduza as credenciais do seu ISP (DEFAULT MEO: user: meo , pass: meo || DEFAULT vodafone user: vodafone , pass: vodafone |ou debaixo do router 
+|| DEFAULT NOS: user: admin pass: admin || credenciais debaixo do router ou a conta NOS);
+3- Clique no DMZ e criar regra;
+4- Ao criar regra introduza a porta 9987, protocolo TCP, e o IP do vosso PC (LAN), e aplicar e já consegue comunicar com o seu parceiro fora da REDE LOCAL.
